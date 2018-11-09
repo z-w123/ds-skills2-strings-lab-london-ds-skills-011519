@@ -20,6 +20,13 @@ sentence = "woW WE LOVE cOdInG and strINGS!".capitalize()
 sentence
 ```
 
+
+
+
+    'Wow we love coding and strings!'
+
+
+
 **2.** Next, we have our flatiron mantra, but it's not in title case like it should be! Let's fix that and use another string method that makes all strings first letter capitalized. 
 
 
@@ -27,6 +34,13 @@ sentence
 flatiron_mantra = "learn. love. code.".title()
 flatiron_mantra
 ```
+
+
+
+
+    'Learn. Love. Code.'
+
+
 
 **3.** The next thing we want to do is practice turning other data types into strings. Below, we have a number `1234`, which happens to be our street number in our address, which is a string. So, let's turn that into a string so we can evenutally concatenate it onto our address.
 
@@ -36,6 +50,13 @@ num_to_string = str(1234)
 num_to_string
 ```
 
+
+
+
+    '1234'
+
+
+
 **4.** Finally, let's take the `num_to_string` and add it to the beginning of our street address below. We need to concatenate the variable to the beginning of our string so that we have our full address all in one string and assinged to the variable `full_address`.
 
 
@@ -43,6 +64,13 @@ num_to_string
 full_address = num_to_string + " Abc street, Hometown USA"
 full_address
 ```
+
+
+
+
+    '1234 Abc street, Hometown USA'
+
+
 
 ## Summary
 Great work! In this lab we practiced our skills with strings. We can now manipulate, coerce, and concatenate strings. Remember if there are any things you can't remember or want to discover about code that isn't mentioned in this material, googling is always a great practice!
