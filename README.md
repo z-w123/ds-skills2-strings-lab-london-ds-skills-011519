@@ -5,9 +5,8 @@
 Okay, we have learned about our first data type, the String! Now let's do a little practice with strings. We'll use the methods and functions we introduced in the previous lesson to flex our string-manipulating muscles!
 
 ## Objectives
-You will be able to:
 * Understand and use the data type, Strings
-* Understand, explain and use the correct data types for various types of information (strings)
+* Understand and explain the concept of variables
 
 ## Instructions
 
@@ -17,15 +16,15 @@ Follow the steps below to manipulate the strings and assign the values to the va
 
 
 ```python
-sentence = "woW WE LOVE cOdInG and strINGS!"
+sentence = "woW WE LOVE cOdInG and strINGS!".capitalize()
 sentence
 ```
 
-**2.** Next, we have our Flatiron mantra, but it's not in title case like it should be! Let's fix that and use another string method that makes all strings first letter capitalized. 
+**2.** Next, we have our flatiron mantra, but it's not in title case like it should be! Let's fix that and use another string method that makes all strings first letter capitalized. 
 
 
 ```python
-flatiron_mantra = "learn. love. code."
+flatiron_mantra = "learn. love. code.".title()
 flatiron_mantra
 ```
 
@@ -33,60 +32,17 @@ flatiron_mantra
 
 
 ```python
-num_to_string = 1234
+num_to_string = str(1234)
 num_to_string
 ```
 
-**4.** Let's take the `num_to_string` and add it to the beginning of our street address below. We need to concatenate the variable to the beginning of our string so that we have our full address all in one string and assinged to the variable `full_address`. **hint:** `None` *is a placeholder in the below code for you to edit*
+**4.** Finally, let's take the `num_to_string` and add it to the beginning of our street address below. We need to concatenate the variable to the beginning of our string so that we have our full address all in one string and assinged to the variable `full_address`.
 
 
 ```python
-full_address = None + " Abc street, Hometown USA"
+full_address = num_to_string + " Abc street, Hometown USA"
 full_address
 ```
-
-**5.** Finally, let's replace some of the characters in a string. Let's say Bart is upset with his family and want's to be adopted by the Flanders family. How would you replace his last name?
-
-
-```python
-name = "Bart Simpson"
-name
-```
-
-
-
-
-    'Bart Simpson'
-
-
-
-**Bonus**
-
-**6.** Let's see a new way to print a string with multiple variables in it. Below is code to create two variables and print a concatenation of strings and variables.
-
-
-```python
-item = "apple"
-price = "$0.75"
-
-print("The " + item + " costs " + price)
-```
-
-    The apple costs $0.75
-
-
-Here, look up the `.format()` method to see a new way to print a sentence another way. This method becomes very useful when you have multiple variables in one print statement.
-
-
-```python
-item = "apple"
-price = "$0.75"
-
-print() # use the .format() method here
-```
-
-    
-
 
 ## Summary
 Great work! In this lab we practiced our skills with strings. We can now manipulate, coerce, and concatenate strings. Remember if there are any things you can't remember or want to discover about code that isn't mentioned in this material, googling is always a great practice!
